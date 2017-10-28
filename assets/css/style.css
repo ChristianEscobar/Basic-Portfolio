@@ -136,3 +136,31 @@ div.connectWithMe img {
     padding: 12px 20px;
     margin: 8px 0;
 }
+
+.portfolioMainSection {
+    float: left;
+    height: 700px;
+    width: 650px;
+    margin-top: 100px;
+    margin-left:  150px;
+    padding: 40px;
+    border: 3px solid #dddddd;
+    background-color: #ffffff;
+}
+
+.portfolioMainSection img {
+    width: 200px;
+    height: 200px;
+}
+
+.tableContainer {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.left, .right {
+    display: table-cell;
+}
