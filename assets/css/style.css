@@ -1,21 +1,21 @@
 body {
 	background-image: url("../images/textured_paper_@2X.png");
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
-h1 h2 h3 h4 {
-	font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-}
-
-hr {
-    border: 2px solid #dddddd;
 }
 
 .content {
    background-color: #ffffff;
-   border: 2px solid #dddddd;
+   border: 1px solid #dddddd;
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+   color: #777777;
+}
+
+.content h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+.content hr {
+     border: 2px solid #dddddd;
 }
 
 .mainHeaderSection {
@@ -37,10 +37,9 @@ hr {
     width: 350px;
     height: 40px;
     padding: 35px;
-    background-color: #00b3b3;
+    background-color: #4aaaa5;
     text-align: center;
-    vertical-align: middle;
-    line-height: 80%;
+    line-height: 2px;
     margin-left: 125px;
 }
 
@@ -58,13 +57,13 @@ hr {
 .navigation li {
     display: inline-block;
     float: right;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #dddddd;
     margin-top: 10px;
 }
 
 .navigation li a {
     padding: 14px 16px;
-    color: #33ffff;
+    color: #777777;
     text-align: center;
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -82,8 +81,6 @@ hr {
     margin-top: 100px;
     margin-left:  150px;
     padding: 40px;
-    /*border: 3px solid #dddddd;*/
-    background-color: #ffffff;
 }
 
 .aboutMainSection img {
@@ -96,7 +93,6 @@ hr {
 .connectWithMe {
 	float: right;
     /*border: 3px solid #dddddd;*/
-    background-color: #ffffff;
     padding: 40px;
     width: 270px;
     margin-top: 100px;
@@ -117,13 +113,11 @@ div.connectWithMe img {
     margin-top: 100px;
     margin-left:  150px;
     padding: 40px;
-    /*border: 3px solid #dddddd;*/
-    background-color: #ffffff;
 }
 
 .contactForm input[type=submit] {
     width: 150px;
-    background-color: #00b3b3;
+    background-color: #4aaaa5;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -137,7 +131,6 @@ div.connectWithMe img {
 .contactForm input[type=text], textarea {
     width: 100%;
     box-sizing: border-box;
-    /*border: 1px solid #dddddd;*/
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -151,8 +144,6 @@ div.connectWithMe img {
     margin-top: 100px;
     margin-left:  150px;
     padding: 40px;
-    /*border: 3px solid #dddddd;*/
-    background-color: #ffffff;
 }
 
 .portfolioMainSection img {
@@ -181,7 +172,7 @@ div.connectWithMe img {
     position: absolute;
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-color: #00b3b3;
+    background-color: #4aaaa5;
     color: white;
     width: 200px;
     height: 50px;
