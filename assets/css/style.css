@@ -186,22 +186,32 @@ div.connectWithMe img {
 
 .portfolioLink.hangmanLink {
     top: 160px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
 }
 
 .portfolioLink.rpgLink {
     top: 160px;
     left: 260px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
 }
 
 .portfolioLink.triviaLink {
     top: 400px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
 }
 
 .portfolioLink.rutgersLink {
     top: 400px;
     left:  260px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
 }
 
 .portfolioLink.rockPaperLink {
     top: 650px;
+    line-height: 50px; /* for centering vertically */
+    text-align: center;
 }
