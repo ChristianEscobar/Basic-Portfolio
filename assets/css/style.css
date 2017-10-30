@@ -1,13 +1,29 @@
+
+
 body {
 	background-image: url("../images/textured_paper_@2X.png");
 }
 
+.wrap {
+   min-height: calc(100vh - 90px);
+}
+
+.siteFooter {
+    height: 90px;
+    width: 100%;
+    background-color: grey;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    line-height: 90px;
+}
+
 .contentArea {
     width: 960px;
-    height: 1000px;
+    height: 600px;
     position: relative;
     top: 125px;
     margin-left: 153px;
+    margin-bottom: 0;
 }
 
 .sectionContent {
@@ -16,6 +32,7 @@ body {
     float:left;
     padding: 40px;
     display: inline-block;
+    margin-bottom: 0;
 }
 
 .sideBar {
@@ -24,6 +41,7 @@ body {
     width: 270px;
     height: 180px;
     padding: 20px;
+    margin-bottom: 0;
 }
 
 .externalLinks {
@@ -243,14 +261,4 @@ body {
     top: 790px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
-}
-
-.site-footer {
-    height: 90px;
-    width: auto;
-    background-color: grey;
-    border-top: 8px solid #4aaaa5;
-    text-align: center;
-    line-height: 90px;
-
 }
