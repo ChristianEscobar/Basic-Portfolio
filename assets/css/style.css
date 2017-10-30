@@ -9,13 +9,13 @@ body {
    color: #777777;
 }
 
-.content h1 {
+.content h1, h2, h3, h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
 }
 
 .content hr {
-     border: 2px solid #dddddd;
+    border: 2px solid #dddddd;
 }
 
 .mainHeaderSection {
@@ -97,11 +97,11 @@ body {
 .connectWithMe {
 	float: right;
     /*border: 3px solid #dddddd;*/
-    padding: 40px;
+    padding: 30px;
     width: 270px;
     margin-top: 100px;
     margin-right: 350px;
-    font-size: 80%;
+    /*font-size: 80%;*/
 }
 
 .externalLinks {
