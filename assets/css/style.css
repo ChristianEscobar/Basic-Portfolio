@@ -108,10 +108,10 @@ body {
     width: 60px;
     height: 60px;
     display: inline-block;
+    margin-left: 10px;
 }
 
 #github {
-
     background-image: url('../images/github_icon_normal.png');
 }
 
@@ -120,7 +120,6 @@ body {
 }
 
 #linkedin {
-
     background-image: url('../images/linkedin_icon_normal.png');
 }
 
@@ -129,7 +128,6 @@ body {
 }
 
 #stackoverflow {
-
     background-image: url('../images/stackoverflow_icon_normal.png');
 }
 
