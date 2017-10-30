@@ -142,36 +142,7 @@ body {
     border-right: none;
 }
 
-/*
-.aboutMainSection {
-    float: left;
-    height: 500px;
-    width: 650px;
-    margin-top: 100px;
-    margin-left:  150px;
-    padding: 40px;
-}
-
-.aboutMainSection img {
-    float: left;
-    width: 300px;
-    height: 300px;
-    margin-right: 20px;
-}
-*/
-
-.contactMainSection {
-    float: left;
-    position: relative;
-    height: 540px;
-    width: 650px;
-    margin-top: 100px;
-    margin-left:  150px;
-    padding: 40px;
-}
-
 .contactForm {
-    position: absolute;
     width: 650px;
     top: 150px;
 }
@@ -206,18 +177,6 @@ body {
 #message {
     resize: none;
 }
-
-/*
-.portfolioMainSection {
-    position: relative;
-    float: left;
-    height: 780px;
-    width: 650px;
-    margin-top: 100px;
-    margin-left:  150px;
-    padding: 40px;
-}
-*/
 
 .portfolioImage {
     width: 200px;
