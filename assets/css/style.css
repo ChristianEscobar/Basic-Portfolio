@@ -244,3 +244,13 @@ body {
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
+
+.site-footer {
+    height: 90px;
+    width: auto;
+    background-color: grey;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    line-height: 90px;
+
+}
