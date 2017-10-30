@@ -2,12 +2,76 @@ body {
 	background-image: url("../images/textured_paper_@2X.png");
 }
 
+.contentArea {
+    width: 960px;
+    height: 1000px;
+    position: relative;
+    top: 125px;
+    margin-left: 153px;
+}
+
+.sectionContent {
+    width: 650px;
+    height: auto;
+    float:left;
+    padding: 40px;
+    display: inline-block;
+}
+
+.sideBar {
+    position: absolute;
+    left: 780px;
+    width: 270px;
+    height: 180px;
+    padding: 20px;
+}
+
+.externalLinks {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#github {
+    background-image: url('../images/github_icon_normal.png');
+}
+
+#github:hover {
+    background-image: url('../images/github_icon_hover.png');
+}
+
+#linkedin {
+    background-image: url('../images/linkedin_icon_normal.png');
+}
+
+#linkedin:hover {
+    background-image: url('../images/linkedin_icon_hover.png');
+}
+
+#stackoverflow {
+    background-image: url('../images/stackoverflow_icon_normal.png');
+}
+
+#stackoverflow:hover {
+    background-image: url('../images/stackoverflow_icon_hover.png');
+}
+
+#myPhoto {
+    /*position: relative;*/
+    float: left;
+    padding-right: 30px;
+    margin: 0;
+    top: 0;
+}
+
 .content {
    background-color: #ffffff;
    border: 1px solid #dddddd;
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    color: #777777;
 }
+
 
 .content h1, h2, h3, h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -49,7 +113,7 @@ body {
 
 .navigation ul {
     margin-top: 0;
-    margin-right: 380px;
+    margin-right: 460px;
     float: right;
     position: relative;
 }
@@ -78,6 +142,7 @@ body {
     border-right: none;
 }
 
+/*
 .aboutMainSection {
     float: left;
     height: 500px;
@@ -93,47 +158,7 @@ body {
     height: 300px;
     margin-right: 20px;
 }
-
-.connectWithMe {
-	float: right;
-    /*border: 3px solid #dddddd;*/
-    padding: 30px;
-    width: 270px;
-    margin-top: 100px;
-    margin-right: 350px;
-    /*font-size: 80%;*/
-}
-
-.externalLinks {
-    width: 60px;
-    height: 60px;
-    display: inline-block;
-    margin-left: 10px;
-}
-
-#github {
-    background-image: url('../images/github_icon_normal.png');
-}
-
-#github:hover {
-    background-image: url('../images/github_icon_hover.png');
-}
-
-#linkedin {
-    background-image: url('../images/linkedin_icon_normal.png');
-}
-
-#linkedin:hover {
-    background-image: url('../images/linkedin_icon_hover.png');
-}
-
-#stackoverflow {
-    background-image: url('../images/stackoverflow_icon_normal.png');
-}
-
-#stackoverflow:hover {
-    background-image: url('../images/stackoverflow_icon_hover.png');
-}
+*/
 
 .contactMainSection {
     float: left;
