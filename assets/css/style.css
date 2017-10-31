@@ -24,10 +24,11 @@ body {
     top: 125px;
     margin-left: 153px;
     margin-bottom: 0;
+    /* try auto margin */
 }
 
 .sectionContent {
-    width: 650px;
+    width: 590px;
     height: auto;
     float:left;
     padding: 40px;
