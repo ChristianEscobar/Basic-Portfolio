@@ -1,12 +1,15 @@
 
-
 body {
 	background-image: url("../images/textured_paper_@2X.png");
 }
 
-.wrap {
-   min-height: calc(100vh - 90px);
+/*
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 35px;
+    font-size: 2em;
 }
+*/
 
 .siteFooter {
     height: 90px;
@@ -15,11 +18,12 @@ body {
     border-top: 8px solid #4aaaa5;
     text-align: center;
     line-height: 90px;
+    margin-bottom: 0;
 }
 
 .contentArea {
     width: 960px;
-    height: 600px;
+    /*height: 600px;*/
     position: relative;
     top: 125px;
     margin-left: 153px;
@@ -91,7 +95,6 @@ body {
    color: #777777;
 }
 
-
 .content h1, h2, h3, h4 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -110,10 +113,9 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
 }
 
-.myName {
+#myName {
     position: absolute;
     float: left;
     top: 0;  /* must use top, left, right, bottom when using position: absolute */
@@ -126,25 +128,25 @@ body {
     margin-left: 125px;
 }
 
-.myName h1 {
+#myName h1 {
     color: white;
 }
 
-.navigation ul {
+#navigation ul {
     margin-top: 0;
     margin-right: 460px;
     float: right;
     position: relative;
 }
 
-.navigation li {
+#navigation li {
     display: inline-block;
     float: right;
     border-right: 1px solid #dddddd;
     margin-top: 10px;
 }
 
-.navigation li a {
+#navigation li a {
     padding: 14px 16px;
     color: #777777;
     text-align: center;
@@ -153,11 +155,11 @@ body {
     font-size: 120%;
 }
 
-.navigation li a:hover {
+#navigation li a:hover {
     color: #a6d8d6;
 }
 
-.navigation li:first-child {
+#navigation li:first-child {
     border-right: none;
 }
 
