@@ -292,6 +292,7 @@ hr {
 
 #navigation ul {
     margin-top: 35px;
+    margin-right: 0;
     float: right;
 }
 
