@@ -94,12 +94,12 @@ hr {
 }
 
 .navigationContainer {
-    position: relative; 
+    position: absolute; 
     width: 960px; 
     height: auto;
     top: 0;
     padding: 0;
-    left: 260px;
+    left: 290px;
 }
 
 .contactForm {
