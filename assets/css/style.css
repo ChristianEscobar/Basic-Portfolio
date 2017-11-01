@@ -8,12 +8,6 @@ h1 {
     color: #4aaaa5;
     display: block;
     font-size: 2em;
-    /*
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    */
     font-weight: bold;
 }
 
@@ -41,40 +35,32 @@ hr {
     text-align: center;
     line-height: 90px;
     margin-bottom: 0;
+    color: #bfbfbf;
 }
 
 .contentArea {
-    width: 1100px;
+    width: 960px;
     height: auto;
-    /*height: 600px;*/
     position: relative;
-    /*margin-top: 150px;*/
-    /* margin-left: 160px;*/
     top: 150px;
-    left: 160px;
-    margin-bottom: 0;
+    left: 300px;
 }
 
 #sectionContent {
-    width: 650px;
+    width: 568px;
     height: auto;
     float:left;
     padding: 40px;
-    margin-bottom: 0;
 }
 
 #sideBar {
-    /*position: absolute;*/
     float: right;
-    /*left: 780px;*/
-    width: 270px;
+    width: 240px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 10px;
-    padding-right: 30px;
+    padding-right: 10px;
     margin-left: 10px;
-    margin-right: 0;
-    margin-bottom: 0;
 }
 
 .clearfix:after {
@@ -85,11 +71,13 @@ hr {
 
 #sideBar hr {
     border: 1px solid #dddddd;
-    margin-left: 30px;
+    width: 93%;
+    margin-right: 0;
 }
 
 #sideBar h2 {
-    margin-left: 30px;
+    /*margin-left: 30px;*/
+    padding-left: 10px;
 }
 
 #allLinks {
@@ -141,6 +129,10 @@ hr {
    color: #777777;
 }
 
+.sectionText {
+    line-height: 200%;
+}
+
 .mainHeaderSection {
     border: 2px solid #cccccc;
     background-color: #ffffff;
@@ -163,7 +155,7 @@ hr {
     background-color: #4aaaa5;
     text-align: center;
     line-height: 2px;
-    margin-left: 120px;
+    margin-left: 260px;
 }
 
 #myName h1 {
@@ -207,7 +199,7 @@ hr {
 }
 
 .contactForm {
-    width: 650px;
+    width: auto;
     top: 150px;
 }
 
