@@ -30,7 +30,7 @@ hr {
 }
 
 .push {
-    height: 50px;
+    height: 90px;
 }
 
 .siteFooter {
@@ -55,7 +55,7 @@ hr {
     left: 300px;
     margin-top: 150px;
     margin-left: 295px;
-    margin-bottom: -1px;
+    margin-bottom: -90px;
 }
 
 .clearfix:after {
