@@ -3,13 +3,35 @@ body {
 	background-image: url("../images/textured_paper_@2X.png");
 }
 
-/*
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    line-height: 35px;
+    color: #4aaaa5;
+    display: block;
     font-size: 2em;
+    /*
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    */
+    font-weight: bold;
 }
-*/
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+hr {
+    border: 2px solid #dddddd;
+}
 
 .siteFooter {
     height: 90px;
@@ -26,13 +48,13 @@ h1 {
     /*height: 600px;*/
     position: relative;
     top: 125px;
-    margin-left: 153px;
+    margin-left: 155px;
     margin-bottom: 0;
     /* try auto margin */
 }
 
 .sectionContent {
-    width: 590px;
+    width: 650px;
     height: auto;
     float:left;
     padding: 40px;
@@ -40,20 +62,34 @@ h1 {
     margin-bottom: 0;
 }
 
-.sideBar {
+#sideBar {
     position: absolute;
     left: 780px;
     width: 270px;
-    height: 180px;
-    padding: 20px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 40px;
     margin-bottom: 0;
+}
+
+#sideBar hr {
+    border: 1px solid #dddddd;
+    margin-left: 30px;
+}
+
+#sideBar h2 {
+    margin-left: 30px;
+}
+
+#allLinks {
+    margin-left: 30px;
 }
 
 .externalLinks {
     width: 60px;
     height: 60px;
     display: inline-block;
-    margin-left: 10px;
 }
 
 #github {
@@ -95,15 +131,6 @@ h1 {
    color: #777777;
 }
 
-.content h1, h2, h3, h4 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-}
-
-.content hr {
-    border: 2px solid #dddddd;
-}
-
 .mainHeaderSection {
     border: 2px solid #cccccc;
     background-color: #ffffff;
@@ -113,6 +140,7 @@ h1 {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 #myName {
@@ -125,11 +153,16 @@ h1 {
     background-color: #4aaaa5;
     text-align: center;
     line-height: 2px;
-    margin-left: 125px;
+    margin-left: 120px;
 }
 
 #myName h1 {
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 35px;
 }
 
 #navigation ul {
@@ -235,33 +268,33 @@ h1 {
 }
 
 .portfolioLink.hangmanLink {
-    top: 300px;
+    top: 260px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rpgLink {
-    top: 300px;
+    top: 260px;
     left: 301px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.triviaLink {
-    top: 542px;
+    top: 500px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rutgersLink {
-    top: 542px;
+    top: 500px;
     left:  301px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rockPaperLink {
-    top: 790px;
+    top: 750px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
