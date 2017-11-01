@@ -29,6 +29,10 @@ hr {
     border: 2px solid #dddddd;
 }
 
+.push {
+    height: 50px;
+}
+
 .siteFooter {
     height: 90px;
     width: 100%;
@@ -36,18 +40,22 @@ hr {
     border-top: 8px solid #4aaaa5;
     text-align: center;
     line-height: 90px;
-    position: fixed;
+    position: relative;
     color: #bfbfbf;
     left: 0;
     bottom: 0;
+    top: auto;
 }
 
 .contentArea {
     width: 960px;
     height: auto;
-    position: relative;
-    top: 150px;
+    /*position: relative;*/
+    top: 300px;
     left: 300px;
+    margin-top: 150px;
+    margin-left: 295px;
+    margin-bottom: -1px;
 }
 
 .clearfix:after {
@@ -84,7 +92,6 @@ hr {
     left: 0;
     z-index: 1;
 }
-
 
 .contactForm {
     width: auto;
@@ -154,33 +161,33 @@ hr {
 }
 
 .portfolioLink.hangmanLink {
-    top: 275px;
+    top: 450px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rpgLink {
-    top: 275px;
-    left: 301px;
+    top: 450px;
+    left: 596px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.triviaLink {
-    top: 515px;
+    top: 700px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rutgersLink {
-    top: 515px;
-    left:  301px;
+    top: 700px;
+    left:  596px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rockPaperLink {
-    top: 760px;
+    top: 940px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
@@ -190,6 +197,7 @@ hr {
     height: auto;
     float:left;
     padding: 40px;
+    clear: both;
 }
 
 #sideBar {
