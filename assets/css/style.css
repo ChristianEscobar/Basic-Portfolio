@@ -44,33 +44,43 @@ hr {
 }
 
 .contentArea {
-    width: 960px;
+    width: 1100px;
+    height: auto;
     /*height: 600px;*/
     position: relative;
-    top: 125px;
-    margin-left: 155px;
+    /*margin-top: 150px;*/
+    /* margin-left: 160px;*/
+    top: 150px;
+    left: 160px;
     margin-bottom: 0;
-    /* try auto margin */
 }
 
-.sectionContent {
+#sectionContent {
     width: 650px;
     height: auto;
     float:left;
     padding: 40px;
-    display: inline-block;
     margin-bottom: 0;
 }
 
 #sideBar {
-    position: absolute;
-    left: 780px;
+    /*position: absolute;*/
+    float: right;
+    /*left: 780px;*/
     width: 270px;
     height: 200px;
     padding-top: 20px;
     padding-left: 10px;
-    padding-right: 40px;
+    padding-right: 30px;
+    margin-left: 10px;
+    margin-right: 0;
     margin-bottom: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
 #sideBar hr {
@@ -167,7 +177,7 @@ hr {
 
 #navigation ul {
     margin-top: 0;
-    margin-right: 460px;
+    margin-right: 450px;
     float: right;
     position: relative;
 }
