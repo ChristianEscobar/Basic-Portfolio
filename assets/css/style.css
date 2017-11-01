@@ -1,5 +1,7 @@
 
 body {
+    height: 100%
+    margin: 0;
 	background-image: url("../images/textured_paper_@2X.png");
 }
 
@@ -36,6 +38,7 @@ hr {
     line-height: 90px;
     position: fixed;
     color: #bfbfbf;
+    left: 0;
     bottom: 0;
 }
 
@@ -151,33 +154,33 @@ hr {
 }
 
 .portfolioLink.hangmanLink {
-    top: 260px;
+    top: 275px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rpgLink {
-    top: 260px;
+    top: 275px;
     left: 301px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.triviaLink {
-    top: 500px;
+    top: 515px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rutgersLink {
-    top: 500px;
+    top: 515px;
     left:  301px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
 
 .portfolioLink.rockPaperLink {
-    top: 750px;
+    top: 760px;
     line-height: 50px; /* for centering vertically */
     text-align: center;
 }
