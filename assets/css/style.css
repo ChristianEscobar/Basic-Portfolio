@@ -30,7 +30,7 @@ hr {
 }
 
 .push {
-    height: 90px;
+    height: auto;
 }
 
 .siteFooter {
@@ -49,12 +49,13 @@ hr {
 .contentArea {
     width: 960px;
     height: auto;
+    min-height: 100%;
     /*position: relative;*/
     top: 300px;
     left: 300px;
     margin-top: 150px;
     margin-left: 295px;
-    margin-bottom: -90px;
+    margin-bottom: 90px;
 }
 
 .clearfix:after {
