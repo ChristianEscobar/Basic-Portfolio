@@ -93,6 +93,15 @@ hr {
     z-index: 1;
 }
 
+.navigationContainer {
+    position: relative; 
+    width: 960px; 
+    height: auto;
+    top: 0;
+    padding: 0;
+    left: 260px;
+}
+
 .contactForm {
     width: auto;
     top: 150px;
@@ -258,16 +267,15 @@ hr {
 }
 
 #myName {
-    position: absolute;
     float: left;
-    top: 0;  /* must use top, left, right, bottom when using position: absolute */
+    /*top: 0;  */
     width: 350px;
     height: 40px;
     padding: 35px;
     background-color: #4aaaa5;
     text-align: center;
     line-height: 2px;
-    margin-left: 260px;
+    margin-left: 0;
 }
 
 #myName h1 {
@@ -280,10 +288,8 @@ hr {
 }
 
 #navigation ul {
-    margin-top: 0;
-    margin-right: 450px;
+    margin-top: 35px;
     float: right;
-    position: relative;
 }
 
 #navigation li {
