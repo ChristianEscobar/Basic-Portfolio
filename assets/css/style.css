@@ -40,7 +40,7 @@ hr {
     border-top: 8px solid #4aaaa5;
     text-align: center;
     line-height: 90px;
-    position: fixed;
+    /*position: fixed;*/
     color: #bfbfbf;
     left: 0;
     bottom: 0;
