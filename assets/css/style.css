@@ -79,6 +79,9 @@ hr {
 
 .sectionText {
     line-height: 200%;
+    text-indent: 50px;
+    word-wrap: break-word;
+    text-align: left;
 }
 
 .mainHeaderSection {
