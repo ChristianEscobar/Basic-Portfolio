@@ -58,7 +58,7 @@ hr {
     margin-bottom: 90px;
 }
 
-.clearfix:after {
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
