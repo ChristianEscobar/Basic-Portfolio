@@ -35,7 +35,7 @@ hr {
 
 .push {
     /*height: auto;*/
-    margin-bottom: 90px;
+    /*margin-bottom: 90px;*/
 }
 
 .siteFooter {
@@ -45,7 +45,7 @@ hr {
     border-top: 8px solid #4aaaa5;
     text-align: center;
     line-height: 90px;
-    position: fixed;
+    /*position: fixed;*/
     color: #bfbfbf;
     left: 0;
     bottom: 0;
@@ -60,7 +60,7 @@ hr {
     left: 300px;
     margin-top: 150px;
     margin-left: 295px;
-    margin-bottom: 90px;
+    /*margin-bottom: 50px;*/
 }
 
 .clearfix::after {
